@@ -1,0 +1,23 @@
+{
+  "name": "kpi-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "files": "node files/1-readFileSync.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webenot/kpi-nodejs.git"
+  },
+  "author": "webenot@mail.ua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webenot/kpi-nodejs/issues"
+  },
+  "homepage": "https://github.com/webenot/kpi-nodejs#readme",
+  "dependencies": {
+    "eslint": "^7.6.0"
+  }
+}
