@@ -12,6 +12,7 @@
     "BigInt": true
   },
   "rules": {
+    "comma-dangle": ["error", "always-multiline"],
     "array-bracket-spacing": ["error", "always", { "objectsInArrays": false, "arraysInArrays": false }],
     "arrow-parens": ["error", "as-needed"],
     "indent": ["error", 2, {
