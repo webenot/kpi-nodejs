@@ -80,10 +80,8 @@ const wrapFunction = (fnName, fn) => (...args) => {
 const cloneInterface = anInterface => {
   const clone = {};
   for (const key in anInterface) {
-    if (anInterface.hasOwnProperty(key)) {
-      const fn = anInterface[key];
-      clone[key] = wrapFunction(key, fn);
-    }
+    const fn = anInterface[key];
+    clone[key] = wrapFunction(key, fn);
   }
   return clone;
 };
